@@ -24,6 +24,19 @@
 
         });
 
+        require(["policies"], function(policies) {
+            doh.register('policiesCountTester',
+                [{
+                    name: 'policiesCountTester',
+                    timeout: 2000,
+                    runTest: function() {
+                      doh.is(policies.length, 3);
+                    }
+                }]
+            );
+            doh.run();
+
+        });
         </script>
       </head>
       <body>
