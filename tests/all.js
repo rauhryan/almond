@@ -6,3 +6,4 @@ doh.registerUrl("text", "../plugins/text.html");
 doh.registerUrl("coffee", "../plugins/coffee.html");
 doh.registerUrl("unorderedSeparate", "../unordered/separate.html");
 doh.registerUrl("extend", "../extend.html")
+doh.registerUrl("policies", "../extend/policies.html")

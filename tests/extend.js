@@ -31,3 +31,4 @@ define('baz', ['require', 'exports', 'module', './bar'], function (require, expo
         });
     }
 });
+
